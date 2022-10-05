@@ -11,28 +11,31 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
+    <meta name="description" content="Send WhatsApp messages to unsaved contacts. You don't need to save a number in order to message that number... with Love from Levi Kamara Zwannah">
+
 </head>
 
 <body>
   <header>
-   <nav class="navbar navbar-expand-sm navbar-light bg-light">
+   <nav class="navbar navbar-expand-sm navbar-light bg-primary">
       <div class="container">
-        <a class="navbar-brand" href="#">WhatsApp Sender</a>
-     </div>
+        <a class="navbar-brand text-white" href="#">WhatsApp Sender</a>
+      </div>
    </nav>
    
   </header>
   <main>
-    <div class="container p-4">
+    <div class="w-full bg-primary text-white p-4 text-center">
+      <p class="h1">WhatsApp unsaved numbers</p>
+    </div>
+    <div class="container p-4 round-top">
         <div class="mb-3">
-          <label for="" class="form-label">Phone Number</label>
           <input type="text"
-            class="form-control" name="" id="phone-number" aria-describedby="helpId" placeholder="Phone number">
+            class="form-control" name="" id="phone-number" aria-describedby="helpId" placeholder="Enter phone number">
           <small id="helpId" class="form-text text-muted">Enter phone number with country code</small>
         </div>
 
         <div class="mb-3">
-          <label for="" class="form-label">Enter your message</label>
           <textarea class="form-control" name="" id="message-to-send" rows="5" placeholder="Type your message." aria-describedby="thelpId"></textarea>
           <small id="thelpId" class="form-text text-muted">Enter the message to send. <b>**bold**</b></small>
         </div>
